@@ -6,7 +6,7 @@ function isScrollReached(percentage) {
 
 function isMobile() {
   const documentWidth = $(document).width();
-  return documentWidth < 768;
+  return documentWidth < 1024;
 }
 
 
