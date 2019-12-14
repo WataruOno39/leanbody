@@ -51,6 +51,10 @@ header.is-scrolled {
   letter-spacing: 0.1em;
   text-decoration: none;
   cursor: pointer;
+  line-height: 1;
+}
+.header-cv.is-scrolled div:first-child {
+  padding-bottom: 4px;
 }
 .header-cv {
   opacity: 0;
