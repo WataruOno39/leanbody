@@ -36,7 +36,7 @@ $(() => {
   const movie = isMobile() ? document.getElementById('js-movie-sp') : document.getElementById('js-movie-pc');
   
   $('.js-moviePlay').on('click', () => {
-    movie.play();
+    setTimeout(() => movie.play(), 1000);
     $('.js-moviePlay').addClass('is-clicked');
   }); 
   
