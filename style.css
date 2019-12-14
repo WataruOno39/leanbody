@@ -103,6 +103,10 @@ header.is-scrolled {
   position: absolute;
   top: 0;
 }
+
+.top-section-movie-sp video::-webkit-media-controls {
+  display: none;
+}
 .top-section-movie-sp video {
   width: 100%;
 }
