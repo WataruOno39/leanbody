@@ -570,13 +570,13 @@ footer {
     background-size: 180px;  
   }
   .header-cv.is-scrolled {
-    padding: 20px 20px 12px 20px;
+    padding: 0 20px;
   }
   .header-cv {
     opacity: 0;
   }
   .header-login {
-    padding: 20px 0 12px 0;
+    padding: 0;
   }
   .header-login.is-scrolled {
     background: #333;
