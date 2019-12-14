@@ -43,7 +43,11 @@ header.is-scrolled {
   text-align: center;
   font-size: 12px;
   font-weight: bold;
-  padding: 12px 20px;
+  padding: 0 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   letter-spacing: 0.1em;
   text-decoration: none;
   cursor: pointer;
@@ -52,7 +56,10 @@ header.is-scrolled {
   opacity: 0;
 }
 .header-login {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   color: #fff;
   font-size: 10px;
