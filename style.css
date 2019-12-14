@@ -138,16 +138,13 @@ header.is-scrolled {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.1em;
-  margin: 80px auto 32px auto;
+  margin: 72px auto 32px auto;
   width: calc(100% - 48px);
   max-width: 500px;
   padding: 20px 32px;
   border-radius: 100px;
   background: #67D2E8;
   white-space: nowrap;
-}
-.icon-arrow {
-  width: 20px;
 }
 .top-section-scroll {
   position: relative;
@@ -193,6 +190,7 @@ header.is-scrolled {
 .plan-section-title {
   background: url(img/plan-section-title-sp.svg) no-repeat;
   padding-bottom: calc(100%*234/625);
+  max-width: 600px;
 }
 .plan-section-description {
   font-size: 18px;
@@ -207,7 +205,6 @@ header.is-scrolled {
   letter-spacing: 0.1em;
   line-height: 1.7;
 }
-
 .home-section {
   background: url(img/bg-home-section-sp.svg) no-repeat;
   background-size: cover;
@@ -215,15 +212,19 @@ header.is-scrolled {
   position: relative;
   overflow-x: hidden;
 }
+.home-section-inner {
+  padding: 32px 0;
+}
 .home-section-title {
   background: url(img/home-section-title-sp.svg) no-repeat right;
   background-size: 80%;
-  padding: 32px 28px calc(100%*234/482);
-  margin-right: 28px;
+  padding: 32px 0 calc(80%*234/482) 0;
+  max-width: 600px;
+  margin: 0 28px 40px auto;
 }
 .home-section-movie {
   position: relative;
-  margin-right: -16px;
+  margin-right: -26px;
 }
 .home-section-movie-sp {
   width: 100%;
@@ -351,7 +352,8 @@ header.is-scrolled {
 .faq-section-title {
   background: url(img/faq-section-title-sp.svg) no-repeat left;
   background-size: 80%;
-  padding-bottom: calc(100%*59/385);
+  padding-bottom: calc(80%*59/385);
+  max-width: 500px;
 }
 .faq-box-container {
   padding-top: 40px;
@@ -413,7 +415,9 @@ header.is-scrolled {
 .ba-section-title {
   background: url(img/ba-section-title-sp.svg) no-repeat right;
   background-size: 70%;
-  padding-bottom: calc(100%*145/440);
+  padding-bottom: calc(70%*145/440);
+  max-width: 600px;
+  margin: 0 28px 0 auto;
 }
 .ba-section-username {
   color: #fff;
@@ -468,7 +472,8 @@ header.is-scrolled {
 .uservoice-section-title {
   background: url(img/uservoice-section-title-sp.svg) no-repeat left;
   background-size: 80%;
-  padding-bottom: calc(100%*146/483);
+  padding-bottom: calc(80%*146/483);
+  max-width: 550px;
 }
 .uservoice-box {
   display: flex;
@@ -787,7 +792,7 @@ footer {
   .faq-section {
     background: url(img/bg-faq-section.svg) no-repeat;
     background-size: cover;
-    padding: 64px;
+    padding: 64px 64px 128px 64px;
   }
   .faq-section-inner {
     display: flex;
