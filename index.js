@@ -40,11 +40,6 @@ $(() => {
     $('.js-moviePlay').addClass('is-clicked');
   }); 
   
-  $('.js-moviePlay').on('touchstart', () => {
-    movie.play();
-    $('.js-moviePlay').addClass('is-clicked');
-  }); 
-  
   
   movie.addEventListener('play', () => {
      movie.addEventListener('mouseover',() => {
