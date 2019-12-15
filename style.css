@@ -850,6 +850,8 @@ footer {
     background: url(img/ba-section-title.svg) no-repeat left;
     background-size: 350px;
     padding-bottom: calc(350px*127/360);
+    margin-right: auto;
+    margin-left: 0;
   }
   .ba-section-comparison-wrapper {
     position: absolute;
