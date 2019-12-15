@@ -40,6 +40,15 @@ $(() => {
     $('.js-moviePlay').addClass('is-clicked');
   }); 
   
+  
+  movie.addEventListener('play', () => {
+     movie.addEventListener('mouseover',() => {
+      movie.setAttribute("controls", "controls");
+    }).removeEventListener('mouseover', () => {
+       movie.removeAttribute("controls");
+     });
+  });
+  
 });
 
 
