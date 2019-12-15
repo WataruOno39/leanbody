@@ -605,10 +605,11 @@ footer {
     max-width: 1280px;
     margin: 0 auto;
   }
-  .top-section-movie {
+  .top-section-movie-sp {
     display: none;
   }
   .top-section-movie {
+    display: block;
     width: 100%;
     position: absolute;
     top: 0;
